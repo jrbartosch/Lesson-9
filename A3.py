@@ -31,7 +31,7 @@ if ride == 1:
     elif ridetype == 8:
         print ('You Selected the Bobber.')
     elif ridetype == 9:
-        print ('You selected the Scooter.')
+        print ('You Selected the Scooter.')
     else:
         print ('Invalid Input.')
 elif ride == 2:
