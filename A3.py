@@ -61,7 +61,7 @@ elif ride == 2:
     elif ridetype == 7:
         print ('You Selected the SUV.')
     elif ridetype == 8:
-        print ('You Selected the Crossover')
+        print ('You Selected the Crossover.')
     elif ridetype == 9:
         print ('You Selected the Minivan.')
     else:
