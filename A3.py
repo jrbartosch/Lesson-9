@@ -5,17 +5,17 @@ ride = int(input('Please Enter the Number of Your Selected Ride: '))
 if ride == 1:
     print ('What Type of Motorcycle?')
     print ('1. Cruiser')
-    print ('2. Adventure Motorcycle')
-    print ('3. Standard Motorcycle')
-    print ('4. Sport Motorcycle')
-    print ('5. Dual Sport Motorcycle')
-    print ('6. Touring Motorcycle')
-    print ('7. Off-Road Motorcycle')
+    print ('2. Adventure')
+    print ('3. Standard')
+    print ('4. Sport')
+    print ('5. Dual Sport')
+    print ('6. Touring')
+    print ('7. Off-Road')
     print ('8. Bobber')
     print ('9. Scooter')
     ridetype = int(input('Please Enter The Number of Your Selected Type: '))
     if ridetype == 1:
-        print ('You Selected the Cruiser.')
+        print ('You Selected the Cruiser Motorcycle.')
     elif ridetype == 2:
         print ('You Selected the Adventure Motorcycle.')
     elif ridetype == 3:
@@ -29,9 +29,9 @@ if ride == 1:
     elif ridetype == 7:
         print ('You Selected the Off-Road Motorcycle.')
     elif ridetype == 8:
-        print ('You Selected the Bobber.')
+        print ('You Selected the Bobber Motorcycle.')
     elif ridetype == 9:
-        print ('You Selected the Scooter.')
+        print ('You Selected the Scooter Motorcycle.')
     else:
         print ('Invalid Input.')
 elif ride == 2:
